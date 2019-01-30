@@ -166,30 +166,35 @@ const config = {
 }
 export const menuConfig = [
   {
-    title: '安装',
+    title: 'Installtion',
+    label: '安装',
     icon: '',
     path: '/installtion',
     children: [
       {
-        title: '开始',
+        title: 'Getting Started',
+        label: '安装',
         icon: '',
         path: 'GettingStarted',
         component: 'GettingStarted'
       },
       {
-        title: '添加React网站',
+        title: 'Add React To A Website',
+        label: '添加React网站',
         icon: '',
         path: 'AddReactToAWebsite',
         component: 'AddReactToAWebsite'
       },
       {
-        title: '创建React项目',
+        title: 'Create A New React App',
+        label: '创建React项目',
         icon: '',
         path: 'CreateANewReactApp',
         component: 'CreateANewReactApp'
       },
       {
-        title: 'CDN',
+        title: 'CDN Links',
+        label: 'CDN',
         icon: '',
         path: 'CDNLinks',
         component: 'CDNLinks'
@@ -197,78 +202,91 @@ export const menuConfig = [
     ]
   },
   {
-    title: '主要理念',
+    title: 'Main Concepts',
+    label: '主要理念',
     icon: '',
     path: '/main-concepts',
     children: [
       {
         title: 'Hello World',
+        label: 'HelloWorld',
         icon: '',
         path: 'HelloWorld',
         component: 'HelloWorld'
       },
       {
-        title: 'JSX简介',
+        title: 'Introducing JSX',
+        label: 'JSX简介',
         icon: '',
         path: 'IntroducingJSX',
         component: 'IntroducingJSX'
       },
       {
-        title: '元素渲染',
+        title: 'Rendering Elements',
+        label: '元素渲染',
         icon: '',
         path: 'RenderingElements',
         component: 'RenderingElements'
       },
       {
-        title: 'Component & props',
+        title: 'Components And Props',
+        label: 'Component & props',
         icon: '',
         path: 'ComponentsAndProps',
         component: 'ComponentsAndProps'
       },
       {
-        title: 'state & 生命周期',
+        title: 'State And Lifecycle',
+        label: 'state & 生命周期',
         icon: '',
         path: 'StateAndLifecycle',
         component: 'StateAndLifecycle'
       },
       {
-        title: '事件处理',
+        title: 'Handing Events',
+        label: '事件处理',
         icon: '',
         path: 'HandingEvents',
         component: 'HandingEvents'
       },
       {
-        title: '条件渲染',
+        title: 'Conditional Rendering',
+        label: '条件渲染',
         icon: '',
         path: 'ConditionalRendering',
         component: 'ConditionalRendering'
       },
       {
-        title: '列表 & Keys',
+        title: 'Lists And Keys',
+        label: '列表 & Keys',
         icon: '',
         path: 'ListsAndKeys',
         component: 'ListsAndKeys'
       },
       {
-        title: '表单',
+        title: 'Forms',
+        label: '表单',
         icon: '',
         path: 'Forms',
         component: 'Forms'
       },
       {
-        title: '状态提升',
+        title: 'Lifting State Up',
+        label: '状态提升',
         icon: '',
         path: 'LiftingStateUp',
         component: 'LiftingStateUp'
       },
       {
-        title: '组合 VS 继承',
+        title: 'Composition Vs Inheritance',
+        label: '组合 VS 继承',
         icon: '',
         path: 'CompositionVsInheritance',
         component: 'CompositionVsInheritance'
       },
       {
-        title: 'React理念',
+        title: 'Thinking In React',
+        label: 'React理念',
         icon: '',
         path: 'ThinkingInReact',
         component: 'ThinkingInReact'
@@ -276,132 +294,154 @@ export const menuConfig = [
     ]
   },
   {
-    title: '高阶指引',
+    title: 'Advanced Guides',
+    label: '高阶指引',
     icon: '',
     path: '/advanced-guides',
     children: [
       {
-        title: '无障碍',
+        title: 'Accessibility',
+        label: '无障碍',
         icon: '',
         path: 'Accessibility',
         component: 'Accessibility'
       },
       {
-        title: '代码分隔',
+        title: 'Code Splitting',
+        label: '代码分隔',
         icon: '',
         path: 'CodeSplitting',
         component: 'CodeSplitting'
       },
       {
         title: 'Context',
+        label: 'Context',
         icon: '',
         path: 'Context',
         component: 'Context'
       },
       {
-        title: '错误边界',
+        title: 'Error Boundaries',
+        label: '错误边界',
         icon: '',
         path: 'ErrorBoundaries',
         component: 'ErrorBoundaries'
       },
       {
         title: 'Forwarding Refs',
+        label: 'Forwarding Refs',
         icon: '',
         path: 'ForwardingRefs',
         component: 'ForwardingRefs'
       },
       {
-        title: '片段',
+        title: 'Fragments',
+        label: '片段',
         icon: '',
         path: 'Fragments',
         component: 'Fragments'
       },
       {
-        title: '高阶组件',
+        title: 'Higher Order Components',
+        label: '高阶组件',
         icon: '',
         path: 'HigherOrderComponents',
         component: 'HigherOrderComponents'
       },
       {
-        title: '集成其他库',
+        title: 'Integrating With Other Libraries',
+        label: '集成其他库',
         icon: '',
         path: 'IntegratingWithOtherLibraries',
         component: 'IntegratingWithOtherLibraries'
       },
       {
-        title: '深入理解JSX',
+        title: 'JSX In Depth',
+        label: '深入理解JSX',
         icon: '',
         path: 'JSXInDepth',
         component: 'JSXInDepth'
       },
       {
-        title: '性能优化',
+        title: 'Optimizing Performance',
+        label: '性能优化',
         icon: '',
         path: 'OptimizingPerformance',
         component: 'OptimizingPerformance'
       },
       {
-        title: '入口',
+        title: 'Portals',
+        label: '入口',
         icon: '',
         path: 'Portals',
         component: 'Portals'
       },
       {
-        title: 'React不是用ES6',
+        title: 'React Without ES6',
+        label: 'React不是用ES6',
         icon: '',
         path: 'ReactWithoutES6',
         component: 'ReactWithoutES6'
       },
       {
-        title: 'React不使用JSX',
+        title: 'React Without JSX',
+        label: 'React不使用JSX',
         icon: '',
         path: 'ReactWithoutJSX',
         component: 'ReactWithoutJSX'
       },
       {
         title: 'Reconciliation',
+        label: 'Reconciliation',
         icon: '',
         path: 'Reconciliation',
         component: 'Reconciliation'
       },
       {
-        title: 'Refs & DOM',
+        title: 'Refs And The DOM',
+        label: 'Refs & DOM',
         icon: '',
         path: 'RefsAndTheDOM',
         component: 'RefsAndTheDOM'
       },
       {
         title: 'Render Props',
+        label: 'Render Props',
         icon: '',
         path: 'RenderProps',
         component: 'RenderProps'
       },
       {
-        title: '静态类型检查',
+        title: 'Static Type Checking',
+        label: '静态类型检查',
         icon: '',
         path: 'StaticTypeChecking',
         component: 'StaticTypeChecking'
       },
       {
-        title: '静态mode',
+        title: 'Strict Mode',
+        label: '静态mode',
         icon: '',
         path: 'StrictMode',
         component: 'StrictMode'
       },
       {
-        title: '使用PropTypes进行类型检查',
+        title: 'Typechecking With PropTypes',
+        label: '使用PropTypes进行类型检查',
         icon: '',
         path: 'TypecheckingWithPropTypes',
         component: 'TypecheckingWithPropTypes'
       },
       {
-        title: '非受控组件',
+        title: 'Uncontrolled Components',
+        label: '非受控组件',
         icon: '',
         path: 'UncontrolledComponents',
         component: 'UncontrolledComponents'
       },
       {
-        title: 'Web组件',
+        title: 'Web Components',
+        label: 'Web组件',
         icon: '',
         path: 'WebComponents',
         component: 'WebComponents'
@@ -409,72 +449,84 @@ export const menuConfig = [
     ]
   },
   {
-    title: 'API参考',
+    title: 'API Reference',
+    label: 'API参考',
     icon: '',
     path: '/api-reference',
     children: [
       {
         title: 'React',
+        label: 'React',
         icon: '',
         path: 'ReactIntroduce',
         component: 'ReactIntroduce'
       },
       {
-        title: 'React组件',
+        title: 'React Component',
+        label: 'React组件',
         icon: '',
         path: 'ReactComponent',
         component: 'ReactComponent'
       },
       {
         title: 'ReactDOM',
+        label: 'ReactDOM',
         icon: '',
         path: 'ReactDOMIntroduce',
         component: 'ReactDOMIntroduce'
       },
       {
         title: 'ReactDOMServer',
+        label: 'ReactDOMServer',
         icon: '',
         path: 'ReactDOMServerIntroduce',
         component: 'ReactDOMServerIntroduce'
       },
       {
-        title: 'DOM元素',
+        title: 'DOM Elements',
+        label: 'DOM元素',
         icon: '',
         path: 'DOMElements',
         component: 'DOMElements'
       },
       {
-        title: '合成事件',
+        title: 'Synthetic Event',
+        label: '合成事件',
         icon: '',
         path: 'SyntheticEvent',
         component: 'SyntheticEvent'
       },
       {
-        title: '功能测试',
+        title: 'Test Utilities',
+        label: '功能测试',
         icon: '',
         path: 'TestUtilities',
         component: 'TestUtilities'
       },
       {
         title: 'Shallow Render',
+        label: 'Shallow Render',
         icon: '',
         path: 'ShallowRender',
         component: 'ShallowRender'
       },
       {
         title: 'Test Render',
+        label: 'Test Render',
         icon: '',
         path: 'TestRender',
         component: 'TestRender'
       },
       {
-        title: 'JS环境要求',
+        title: 'JS Environment Requirements',
+        label: 'JS环境要求',
         icon: '',
         path: 'JSEnvironmentRequirements',
         component: 'JSEnvironmentRequirements'
       },
       {
-        title: '词汇表',
+        title: 'Glossary',
+        label: '词汇表',
         icon: '',
         path: 'Glossary',
         component: 'Glossary'
@@ -483,53 +535,62 @@ export const menuConfig = [
   },
   {
     title: 'Hooks',
+    label: 'Hooks',
     icon: '',
     path: '/hooks',
     children: [
       {
-        title: 'Hooks介绍',
+        title: 'Introducing',
+        label: 'Hooks介绍',
         icon: '',
         path: 'IntroducingHooks',
         component: 'IntroducingHooks'
       },
       {
-        title: '初探Hooks',
+        title: 'Hooks At A Glance',
+        label: '初探Hooks',
         icon: '',
         path: 'HooksAtAGlance',
         component: 'HooksAtAGlance'
       },
       {
-        title: 'State Hook的使用',
+        title: 'Using The State Hook',
+        label: 'State Hook的使用',
         icon: '',
         path: 'UsingTheStateHook',
         component: 'UsingTheStateHook'
       },
       {
-        title: 'Effect Hook的使用',
+        title: 'Using The Effect Hook',
+        label: 'Effect Hook的使用',
         icon: '',
         path: 'UsingTheEffectHook',
         component: 'UsingTheEffectHook'
       },
       {
-        title: 'Hooks规则',
+        title: 'Rules Of Hooks',
+        label: 'Hooks规则',
         icon: '',
         path: 'RulesOfHooks',
         component: 'RulesOfHooks'
       },
       {
-        title: '构建自定义Hooks',
+        title: 'Building Your Own Hooks',
+        label: '构建自定义Hooks',
         icon: '',
         path: 'BuildingYourOwnHooks',
         component: 'BuildingYourOwnHooks'
       },
       {
         title: 'Hooks API',
+        label: 'Hooks API',
         icon: '',
         path: 'HooksAPIReference',
         component: 'HooksAPIReference'
       },
       {
         title: 'Hooks FAQ',
+        label: 'Hooks FAQ',
         icon: '',
         path: 'HooksFAQ',
         component: 'HooksFAQ'
@@ -537,30 +598,35 @@ export const menuConfig = [
     ]
   },
   {
-    title: '构建',
+    title: 'Contributing',
+    label: '构建',
     icon: '',
     path: '/contributing',
     children: [
       {
-        title: '怎么样构建',
+        title: 'How To Contribute',
+        label: '怎么样构建',
         icon: '',
         path: 'HowToContribute',
         component: 'HowToContribute'
       },
       {
-        title: '代码库概述',
+        title: 'Codebase Overview',
+        label: '代码库概述',
         icon: '',
         path: 'CodebaseOverview',
         component: 'CodebaseOverview'
       },
       {
-        title: '实施说明',
+        title: 'Implementation Notes',
+        label: '实施说明',
         icon: '',
         path: 'ImplementationNotes',
         component: 'ImplementationNotes'
       },
       {
-        title: '设计原理',
+        title: 'Design Principles',
+        label: '设计原理',
         icon: '',
         path: 'DesignPrinciples',
         component: 'DesignPrinciples'
@@ -568,54 +634,63 @@ export const menuConfig = [
     ]
   },
   {
-    title: '常见疑难解答',
+    title: 'FAQ',
+    label: '常见疑难解答',
     icon: '',
     path: '/faq',
     children: [
       {
-        title: '使用AJAX',
+        title: 'AJAX And APIs',
+        label: '使用AJAX',
         icon: '',
         path: 'AJAXAndAPIs',
         component: 'AJAXAndAPIs'
       },
       {
-        title: 'Babel JSX构建步骤',
+        title: 'Babel JSX And Build Steps',
+        label: 'Babel JSX构建步骤',
         icon: '',
         path: 'BabelJSXAndBuildSteps',
         component: 'BabelJSXAndBuildSteps'
       },
       {
-        title: '组件中传递方法',
+        title: 'Passing Functions To Components',
+        label: '组件中传递方法',
         icon: '',
         path: 'PassingFunctionsToComponents',
         component: 'PassingFunctionsToComponents'
       },
       {
-        title: '组件状态',
+        title: 'Component State',
+        label: '组件状态',
         icon: '',
         path: 'ComponentState',
         component: 'ComponentState'
       },
       {
-        title: 'Style & CSS',
+        title: 'Styling And CSS',
+        label: 'Style & CSS',
         icon: '',
         path: 'StylingAndCSS',
         component: 'StylingAndCSS'
       },
       {
-        title: '文件结构',
+        title: 'File Structure',
+        label: '文件结构',
         icon: '',
         path: 'FileStructure',
         component: 'FileStructure'
       },
       {
-        title: '版本控制策略',
+        title: 'Versioning Policy',
+        label: '版本控制策略',
         icon: '',
         path: 'VersioningPolicy',
         component: 'VersioningPolicy'
       },
       {
-        title: '虚拟DOM介绍',
+        title: 'Virtual DOM And Internals',
+        label: '虚拟DOM介绍',
         icon: '',
         path: 'VirtualDOMAndInternals',
         component: 'VirtualDOMAndInternals'

@@ -30,12 +30,13 @@ export default class SideMenu extends Component {
         {menuConfig.map(item=>{
           return (<SubMenu
             key={item.path}
-            title={item.title}
+            title={<div title={item.title}>{item.label}</div>}
           >
             {item&&item.children.map(child=>{
               return (<Item
                 key={`${item.path}/${child.path}`}
-              >{child.title}</Item>);
+                title={child.title}
+              >{child.label}</Item>);
             })}
           </SubMenu>);
         })}

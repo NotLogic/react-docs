@@ -17,7 +17,7 @@ export default class Common extends React.Component {
         <div className='content-container'>
           <Route key='home' path='/home' component={Home} />
           {menuConfig.map(item=>item.children.map(child=>{
-            const path = item.path + child.path
+            const path = `${item.path}/${child.path}`
             const component = config[child.component]
             return (<Route key={path} path={path} component={component} />)
           }))}
